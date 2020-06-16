@@ -1,0 +1,8 @@
+Conan Workspace setup for local development
+
+# go into build directory from clion or make your own (e.g. for debug: cmake-build-debug, release: cmake-build-release )
+mkdir cmake-build-*
+cd cmake-build-*
+# build workspace (using a matching profile for clion e.g. debug/release)
+conan workspace install ../conanws_gcc.yml --profile=my_profile -o cuda_dev_config:cuda_version=10.0 -o traact_kinect_azure:with_bodytracking=True -o opencv:with_gtk=True
+
