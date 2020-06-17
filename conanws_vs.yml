@@ -1,11 +1,24 @@
 editables:
-    say/0.1@user/testing:
-        path: say
-    hello/0.1@user/testing:
-        path: hello
-    chat/0.1@user/testing:
-        path: chat
+    traact_core/0.0.1@camposs/stable:
+        path: traact_core
+    traact_facade/0.0.1@camposs/stable:
+        path: traact_facade
+    traact_spatial/0.0.1@camposs/stable:
+        path: traact_spatial
+    traact_vision/0.0.1@camposs/stable:
+        path: traact_vision
+    traact_run_env/0.0.1@camposs/stable:
+        path: traact_run_env
+        layout: layout_no_lib
+    traact_install/0.0.1@camposs/stable:
+            path: traact_install
+    traact_dataflow_test/0.0.1@camposs/stable:
+        path: traact_dataflow_test
+    traact_kinect_azure/0.0.1@camposs/stable:
+        path: traact_kinect_azure
+    traact_point_cloud/0.0.1@camposs/stable:
+        path: traact_point_cloud
+    
 layout: layout_vs
-generators: cmake_multi
 workspace_generator: cmake
-root: chat/0.1@user/testing
+root: traact_install/0.0.1@camposs/stable, traact_dataflow_test/0.0.1@camposs/stable

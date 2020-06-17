@@ -1,12 +1,15 @@
 [build_folder]
-build
+build/{{settings.build_type}}
 
 [source_folder]
-src
+.
 
 [includedirs]
-src
+include
 
 # This happens to be mostly useless (with CMake), as CMake is able to find them anyway
 [libdirs]
-build/{{settings.build_type}}
+build/{{settings.build_type}}/lib
+
+[bindirs]
+build/{{settings.build_type}}/bin

@@ -5,7 +5,6 @@ build/{{settings.build_type}}
 .
 
 [includedirs]
-src
 include
 
 # This happens to be mostly useless (with CMake), as CMake is able to find them anyway

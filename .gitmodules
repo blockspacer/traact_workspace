@@ -1,0 +1,30 @@
+[submodule "traact_vision"]
+	path = traact_vision
+	url = https://github.com/traact/traact_vision.git
+[submodule "traact_spatial"]
+	path = traact_spatial
+	url = https://github.com/traact/traact_spatial.git
+[submodule "traact_run_env"]
+	path = traact_run_env
+	url = https://github.com/traact/traact_run_env.git
+[submodule "traact_point_cloud"]
+	path = traact_point_cloud
+	url = https://github.com/traact/traact_point_cloud.git
+[submodule "traact_kinect_azure"]
+	path = traact_kinect_azure
+	url = https://github.com/traact/traact_kinect_azure.git
+[submodule "traact_install"]
+	path = traact_install
+	url = https://github.com/traact/traact_install.git
+[submodule "traact_facade"]
+	path = traact_facade
+	url = https://github.com/traact/traact_facade.git
+[submodule "traact_dataflow_test"]
+	path = traact_dataflow_test
+	url = https://github.com/traact/traact_dataflow_test.git
+[submodule "test_dataflows"]
+	path = test_dataflows
+	url = https://github.com/traact/test_dataflows.git
+[submodule "traact_core"]
+	path = traact_core
+	url = https://github.com/traact/traact_core.git
