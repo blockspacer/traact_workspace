@@ -5,6 +5,7 @@ git clone https://github.com/traact/traact_workspace.git
 cd traact_workspace
 git submodule init
 git submodule update
+git submodule foreach git checkout master
 # create build directory (e.g. for debug: cmake-build-debug, release: cmake-build-release )
 mkdir cmake-build-debug
 cd cmake-build-debug
